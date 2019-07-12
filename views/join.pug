@@ -15,13 +15,7 @@ block content
       .input-group
         label(for='join-tel') 전화번호
         input#join-tel(type='text' name='tel')
-      .input-group
-        label(for='join-gender') 성별
-        input#join-gender(type='checkbox' name='gender' value='female') 
-        input#join-gender(type='checkbox' name='gender' value='male') 
-      .input-group
-        label(for='join-birth') 생일
-        input#join-gender(type='date' name='birth')
+      
               
       if joinError
         .error-message= joinError
